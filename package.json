@@ -1,0 +1,37 @@
+{
+  "name": "cdk-training",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-training": "aws/bin/cdk-training.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/jest": "^29.5.3",
+    "@types/node": "20.4.2",
+    "aws-cdk": "^2.88.0",
+    "esbuild": "^0.18.17",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.1.6"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.204.0",
+    "@aws-sdk/client-dynamodb": "^3.370.0",
+    "@aws-sdk/client-lambda": "^3.370.0",
+    "@aws-sdk/lib-dynamodb": "^3.370.0",
+    "@types/axios": "^0.14.0",
+    "aws-cdk-lib": "2.88.0",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1421.0",
+    "axios": "^1.4.0",
+    "constructs": "^10.0.0",
+    "sdk": "^0.5.0"
+  }
+}
